@@ -17,9 +17,9 @@ class Output:
         return "Template File Name : {}".format(self._templateFile)
 
     def info(self):
-        return """To use the Output template all you simply have to do is write what you want your output to look like 
-        in a simple .txt file.
-        For adding variables in a spesific place type {} this whole thing just utilises .format"""
+        return """ Just type away in a normal txt file it will hold the same shape and structure as it, if you want to 
+        add variables to the template just us {} and when giving the varibale that will be placed in those spots be sure
+        to have them in a list in order of what gose where."""
 
     def output(self, itemsList):
         tempVar = self._template
